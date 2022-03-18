@@ -93,24 +93,4 @@ func main() {
 	if err != nil {
 		log.Fatal("Error serving", err)
 	}
-
-	//fmt.Println("Initial database: ", database)
-	// a := Item{"first", "a first item"}
-	// b := Item{"second", "a second item"}
-	// c := Item{"third", "a third item"}
-
-	// AddItem(a)
-	// AddItem(b)
-	// AddItem(c)
-	// fmt.Println("Second database", database)
-
-	// DeleteItem(b)
-	// fmt.Println("Third database", database)
-
-	// EditItem("third", Item{"fourth", "a new item"})
-	// fmt.Println("Fourth database", database)
-
-	// x := GetByName("second")
-	// y := GetByName("fourth")
-	// fmt.Println(x, y)
 }
